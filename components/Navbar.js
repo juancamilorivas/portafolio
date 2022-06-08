@@ -5,7 +5,7 @@ const Navbar = () => (
     <div className="container">
      <Link href="/">
      <a className="navbar-brand" >
-        Simple Portafolio
+        Start
       </a>
      </Link>
       <button
@@ -24,7 +24,7 @@ const Navbar = () => (
           <li className="nav-item">
             <Link  href="/blog">
               <a className="nav-link">
-                Blog
+                Portafolio 
               </a>
             </Link>
           </li>
