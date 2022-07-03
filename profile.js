@@ -106,3 +106,22 @@ export const projects = [
     image: "portfolio6.jpeg",
   },
 ];
+
+
+export const posts = [
+  {
+    title: "React",
+    content: "It is a long established fact that a reader will be distracted by the readable content of It is a long established fact that a reader will be distracted by the readable content of ",
+    imageUrl: "portfolio7.png",
+  },
+  {
+    title: "Jest",
+    content: "It is a long established fact that a reader will be distracted by the readable content of It is a long established fact that a reader will be distracted by the readable content of ",
+    imageUrl: "portfolio8.png",
+  },
+  {
+    title: "React native",
+    content: "It is a long established fact that a reader will be distracted by the readable content of It is a long established fact that a reader will be distracted by the readable content of ",
+    imageUrl: "portfolio9.png",
+  },
+]

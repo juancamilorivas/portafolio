@@ -3,7 +3,7 @@ import { skills, experiences, projects } from "../profile";
 import Link from 'next/link'
 
 
-console.log(experiences);
+
 
 const Index = () => (
   <Layout>
