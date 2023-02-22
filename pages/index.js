@@ -1,9 +1,6 @@
 import Layout from "../components/Layout";
 import { skills, experiences, projects } from "../profile";
-import Link from 'next/link'
-
-
-
+import Link from "next/link";
 
 const Index = () => (
   <Layout>
@@ -13,18 +10,20 @@ const Index = () => (
         <div className="card card-body bg-secondary text-light">
           <div className="row">
             <div className="col-md-4">
-              <img src="ryan-ray-profile2.jpeg" alt="" className="img-fluid" />
+              <img src="Camilo.png" alt="" className="img-fluid" />
             </div>
             <div className="col-md-8">
               <h1>Camilo Rivas</h1>
-              <h3>Software Developer</h3>
+              <h4>Software Developer</h4>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-                incidunt cum et eius odio, neque adipisci repellendus eligendi
-                temporibus ratione, ipsa sequi, ut maiores laboriosam ea hic
-                consectetur illo! Consequuntur.
+                I'm a "junior software engineer" who constantly seeks out
+                innovative solutions to everyday problems. In my three years in
+                this industry, I've honed my analytical thinking and
+                collaboration skills, and I love working with a team
               </p>
-              <a href="/hireme">Hire me</a>
+              <a href="https://www.linkedin.com/in/juan-camilo-rivas-molina-a079291b1/">
+                <h5 class="font-weight-bold">LinkedIn</h5>
+              </a>
             </div>
           </div>
         </div>
@@ -90,29 +89,32 @@ const Index = () => (
             <div className="col-md-12">
               <h1 className="text-center text-light">Portafolio</h1>
             </div>
-            {projects.map(({ name, description, image }, i) => (
-              <div className="col-md-4 p-2" key={i}>
-                <div className="card h-100">
-                  <div className="overflow">
-                  <img src={`/${image}`} alt="" className="card-img-top"/>
-
-                  </div>
-                  <div className="card-body">
-                    <h3>{name}</h3>
-                    <p>{description}</p>
-                    <a href="#!">Know more</a>
+            {projects.map(({ name, description, image, url }, i) => (
+              
+              
+             <Link href={`${url}`}>
+                <div className="col-md-4 p-2 " key={i}>
+                  <div className="card h-100">
+                    <div className="overflow">
+                      <img src={`/${image}`} alt="Pokemon app" className="card-img-top" />
+                    </div>
+                    <div className="card-body">
+                      <h3 className="font-weight-normal text-secondary">
+                        {name}
+                      </h3>
+                      <p>{description}</p>
+                      <a href={url} className="overflow">Know more</a>
+                    </div>
                   </div>
                 </div>
-              </div>
+             </Link>
             ))}
           </div>
-
-                <div className="text-center mt-4">
-                  <Link href="/portfolio">
-                    <a className="btn btn-outline-light">More projects</a>
-                  </Link>
-                </div>
-
+          <div className="text-center mt-4">
+            <Link href="https://github.com/juancamilorivas?tab=repositories">
+              <a className="btn btn-outline-light">More projects</a>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

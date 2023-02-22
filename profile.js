@@ -13,7 +13,7 @@ export const skills = [
   },
   {
     skill: "Bootstrap",
-    percentage: "55",
+    percentage: "65",
   },
   {
     skill: "Node.js",
@@ -25,23 +25,23 @@ export const skills = [
   },
   {
     skill: "React.js",
-    percentage: "75",
+    percentage: "70",
   },
   {
     skill: "React Native",
-    percentage: "75",
+    percentage: "70",
   },
   {
     skill: "Firebase",
-    percentage: "75",
+    percentage: "70",
   },
   {
     skill: "Stripe",
-    percentage: "55",
+    percentage: "65",
   },
   {
     skill: "Next.js",
-    percentage: "55",
+    percentage: "60",
   },
 ];
 
@@ -70,58 +70,45 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Awesome website 1",
+    name: "Deliveroo",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when",
-    image: "portfolio1.jpeg",
+    image: "portfolio1.png",
   },
   {
-    name: "Awesome website 2",
+    name: "Pokedex",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when",
-    image: "portfolio2.jpg",
+      "This amazing project was developed fetching the official Pokemon API on a React native Expo app, useContext Hooks, Lodash and Formik as tecnologies. Through a fake user you can add and catch all your favorite pokemon, it works on Android and IOS.",
+    image: "portfolio2.png",
+    url: 'https://github.com/juancamilorivas/pokedex',
   },
   {
-    name: "Awesome website 3",
+    name: "Uber 2.0",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    "It is a long established fact that a reader will be distracted by the readable content of a page when",
     image: "portfolio3.png",
+    url: 'https://github.com/juancamilorivas/uber-clone',
   },
   {
-    name: "Awesome website 4",
+    name: "Cards presentation",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    "It is a long established fact that a reader will be distracted by the readable content of a page when",
     image: "portfolio4.png",
+    url: 'https://github.com/juancamilorivas/react-cards-bootstrap',
   },
   {
-    name: "Awesome website 5",
+    name: "To-Do",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when",
-    image: "portfolio5.jpeg",
+    "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    image: "portfolio5.png",
+    url: 'https://github.com/juancamilorivas/express-mongodb-crud',
   },
   {
-    name: "Awesome website 6",
+    name: "Batatabit",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when",
-    image: "portfolio6.jpeg",
+    "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    image: "portfolio6.png",
+    url: 'https://github.com/juancamilorivas/CursoMobileFirst',
   },
 ];
 
-
-export const posts = [
-  {
-    title: "React",
-    content: "It is a long established fact that a reader will be distracted by the readable content of It is a long established fact that a reader will be distracted by the readable content of ",
-    imageUrl: "portfolio7.png",
-  },
-  {
-    title: "Jest",
-    content: "It is a long established fact that a reader will be distracted by the readable content of It is a long established fact that a reader will be distracted by the readable content of ",
-    imageUrl: "portfolio8.png",
-  },
-  {
-    title: "React native",
-    content: "It is a long established fact that a reader will be distracted by the readable content of It is a long established fact that a reader will be distracted by the readable content of ",
-    imageUrl: "portfolio9.png",
-  },
-]
