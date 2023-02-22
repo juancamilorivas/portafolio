@@ -2,7 +2,10 @@ import Layout from "../components/Layout";
 import { skills, experiences, projects } from "../profile";
 import Link from "next/link";
 
+
+
 const Index = () => (
+
   <Layout>
     {/** Header Card */}
     <header className="row">
@@ -16,7 +19,7 @@ const Index = () => (
               <h1>Camilo Rivas</h1>
               <h4>Software Developer</h4>
               <p>
-                I'm a "junior software engineer" who constantly seeks out
+                I'm a software engineer who constantly seeks out
                 innovative solutions to everyday problems. In my three years in
                 this industry, I've honed my analytical thinking and
                 collaboration skills, and I love working with a team
@@ -30,8 +33,8 @@ const Index = () => (
       </div>
     </header>
 
-    {/** Skills*/}
 
+    {/** Skills*/}
     <div className="row py-2">
       <div className="col-md-4">
         <div className="card bg-light">
@@ -59,6 +62,7 @@ const Index = () => (
         </div>
       </div>
 
+
       {/**Experiences */}
       <div className="col-md-8">
         <div className="card bg-light">
@@ -80,8 +84,8 @@ const Index = () => (
       </div>
     </div>
 
-    {/**PORTAFOLIO */}
 
+    {/**PORTAFOLIO */}
     <div className="row">
       <div className="col-md-12">
         <div className="card card-body bg-dark">

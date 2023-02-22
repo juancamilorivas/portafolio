@@ -1,7 +1,7 @@
 export const skills = [
   {
     skill: "HTML",
-    percentage: "75",
+    percentage: "80",
   },
   {
     skill: "CSS",
@@ -45,26 +45,36 @@ export const skills = [
   },
 ];
 
+
 export const experiences = [
   {
-    title: "Software developer at Microsoft",
+    title: "Product design - Software developer at casilleropostal.co",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt cum et eius odio, neque adipisci repellendus eligendi temporibus ratione, ipsa sequi, ut maiores laboriosam ea hic consectetur illo! Consequuntur.",
-    from: 2005,
-    to: 2007,
+      "Talk to the customer · Understand what the client needs or requires · Costumer service · LCL · Figma · JavaScript · Yola platform / Layout and HTML · Air freight delivery process from USA/China to Colombia",
+    from: 2017,
+    to: 2023,
   },
   {
-    title: "Software developer at Google LLC",
+    title: "UI/UX Product Designer at Universidad Republicana",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt cum et eius odio, neque adipisci repellendus eligendi temporibus ratione, ipsa sequi, ut maiores laboriosam ea hic consectetur illo! Consequuntur.",
-    from: 2008,
-    to: 2009,
+      "Design and improvement of interfaces that facilitate its use, improve the experience and usability of your product,understand how users use your interface, design interfaces and user experience.",
+    from: 2022,
+    to: 2022,
   },
   {
-    title: "Software developer at SpaceX",
+    title: "Import and export assistant at Diamond Logistics S.A.S",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt cum et eius odio, neque adipisci repellendus eligendi temporibus ratione, ipsa sequi, ut maiores laboriosam ea hic consectetur illo! Consequuntur.",
-    from: 2010,
+      "Customs services are an important aspect of shipping and logistics management. By utilizing Microsoft Excel for LCL and FCL inspections, custom service data can be integrated into the inspection templates to ensure compliance with customs regulations. Excel can help manage customs-related information, such as tariffs, taxes, and import/export regulations, to ensure smooth and efficient customs clearance processes.",
+    from: 2013,
+    to: 2016,
+  },
+  {
+    title: "Courier air operations coordinator at ABE Cargo Express ",
+    description:
+      "International courier import and export process · Tariff position · Dangerous goods certification by Avianca",
+    from: 2006,
+    to: 2012,
+
   },
 ];
 
@@ -72,8 +82,9 @@ export const projects = [
   {
     name: "Deliveroo",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when",
+      "Created with Expo and Javascript. Renders restaurants list that contain dishes from restaurants around the world. It uses Sanity as backend to save restaurants and dishes that allow users simulate an order.",
     image: "portfolio1.png",
+    url: 'https://github.com/juancamilorivas/deliveroo-clone',
   },
   {
     name: "Pokedex",
@@ -85,28 +96,28 @@ export const projects = [
   {
     name: "Uber 2.0",
     description:
-    "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    "Created with Expo and Javascript. This app renders an Uber 2.0 clone that uses technology as Redux to manage the state and Google Autocomplete to show in a map options like distance and travel time",
     image: "portfolio3.png",
     url: 'https://github.com/juancamilorivas/uber-clone',
   },
   {
     name: "Cards presentation",
     description:
-    "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    "This repository features a React.js project for building a responsive card layout using Bootstrap. It's a great reference for developers looking to learn how to create dynamic UI components and apply basic interactivity in React.js, styled with Bootstrap. Use it to quickly get started on your own responsive web applications.",
     image: "portfolio4.png",
     url: 'https://github.com/juancamilorivas/react-cards-bootstrap',
   },
   {
-    name: "To-Do",
+    name: "To-Do List",
     description:
-    "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    "This repository showcases a simple CRUD web application built with Express.js and MongoDB. It's a great starting point for learning how to create a RESTful API, connect to a database, and perform CRUD operations. Use it as a reference for your own projects or to get up and running quickly.",
     image: "portfolio5.png",
     url: 'https://github.com/juancamilorivas/express-mongodb-crud',
   },
   {
-    name: "Batatabit",
+    name: "Web Batatabit",
     description:
-    "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    "Cover the principles of mobile-first design, as well as practical implementation techniques, including CSS. The repository includes code examples, resources, and projects, making it an excellent starting point for developers looking to create web designs optimized for mobile devices.",
     image: "portfolio6.png",
     url: 'https://github.com/juancamilorivas/CursoMobileFirst',
   },
