@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://juancamilorivas.github.io/next-simple-portafolio",
+  "homepage": "https://juancamilorivas.com",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && echo juancamilorivas.com > ./.next/CNAME",
     "deploy": "gh-pages -d .next"
   },
   "keywords": [],
