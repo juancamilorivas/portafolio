@@ -6,7 +6,7 @@
   "homepage": "https://juancamilorivas.com",
   "scripts": {
     "dev": "next",
-    "build": "next build && echo 'juancamilorivas.com' > ./.next/CNAME",
+    "build": "next build && echo 'juancamilorivas.com' > ./.next/static/CNAME",
     "deploy": "gh-pages -d .next"
   },
   "keywords": [],
