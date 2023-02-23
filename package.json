@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://juancamilorivas.github.io/next-simple-portafolio/",
+  "homepage": "http://juancamilorivas.github.io/next-simple-portafolio/",
   "scripts": {
     "dev": "next",
     "predeploy": "next build",
