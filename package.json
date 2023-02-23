@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "predeploy": "next build",
-    "deploy": "gh-pages -d .next"
+    "predeploy": "next build"
   },
   "keywords": [],
   "author": "",
