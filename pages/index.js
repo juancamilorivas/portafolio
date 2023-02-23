@@ -25,7 +25,7 @@ const Index = () => (
                 collaboration skills, and I love working with a team
               </p>
               <a href="https://www.linkedin.com/in/juan-camilo-rivas-molina-a079291b1/">
-                <h5 class="font-weight-bold">LinkedIn</h5>
+                <h5 className="font-weight-bold">LinkedIn</h5>
               </a>
             </div>
           </div>
@@ -69,8 +69,8 @@ const Index = () => (
           <div className="card-body">
             <h1>Experience</h1>
             <ul>
-              {experiences.map(({ title, description, from, to }, index) => (
-                <li key={index}>
+              {experiences.map(({ title, description, from, to }, i) => (
+                <li key={i}>
                   <h3>{title}</h3>
                   <h5>
                     {from}-{to}
@@ -94,10 +94,8 @@ const Index = () => (
               <h1 className="text-center text-light">Portafolio</h1>
             </div>
             {projects.map(({ name, description, image, url }, i) => (
-              
-              
-             <Link href={`${url}`}>
-                <div className="col-md-4 p-2 " key={i}>
+             <Link key={i} href={`${url}`}>
+                <div className="col-md-4 p-2 " >
                   <div className="card h-100">
                     <div className="overflow">
                       <img src={`/${image}`} alt="Pokemon app" className="card-img-top" />
