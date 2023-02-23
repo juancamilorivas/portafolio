@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://juancamilorivas.github.io/next-simple-portafolio/",
   "scripts": {
     "dev": "next",
     "predeploy": "next build",
@@ -19,8 +18,5 @@
     "nprogress": "^0.2.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
