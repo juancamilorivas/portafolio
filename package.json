@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://juancamilorivas.com",
+  "homepage": "https://juancamilorivas.com",
   "scripts": {
     "dev": "next",
-    "build": "next build && echo 'juancamilorivas.com' > ./.next/BUILD_ID",
+    "build": "next build && echo juancamilorivas.com > ./.next/CNAME",
     "deploy": "gh-pages -d .next"
   },
   "keywords": [],
