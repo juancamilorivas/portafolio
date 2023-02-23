@@ -6,7 +6,7 @@
   "homepage": "https://juancamilorivas.github.io/next-simple-portafolio/",
   "scripts": {
     "dev": "next",
-    "build": "next build && echo juancamilorivas.com > ./.next/CNAME",
+    "predeploy": "next build && echo juancamilorivas.com > ./.next/CNAME",
     "deploy": "gh-pages -d .next"
   },
   "keywords": [],
