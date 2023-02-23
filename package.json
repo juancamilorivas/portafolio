@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && echo juancamilorivas.com > ./.next/CNAME",
-    "deploy": "gh-pages -d .next"
+    "deploy": "npm run bild && gh-pages -d .next"
   },
   "keywords": [],
   "author": "",
